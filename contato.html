@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="styles/contato.css">
+    <link rel="stylesheet" href="styles/style-home.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <section class="banner">
+                <div class="banner-text">
+                    <div class="btn">
+                        <a href="index.html">Home</a>
+                    </div>
+                    <div class="btn">
+                        <a href="contexto.html">Contexto</a>
+                    </div>
+                    <div class="btn">
+                        <a href="curiosidades.html">Curiosidades</a>
+                    </div>
+                    <div class="btn">
+                        <a href="cultura.html">Cultura</a>
+                    </div>
+                    <div class="btn active">
+                        <a href="contato.html">Contato</a>
+                    </div>
+                </div>
+            </section>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Entre em Contato</h1>
+        <form id="contactForm">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name">
+            <span id="nameError" class="error"></span>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email">
+            <span id="emailError" class="error"></span>
+
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" rows="5"></textarea>
+            <span id="messageError" class="error"></span>
+
+            <button type="button" onclick="validateForm()">Enviar</button>
+        </form>
+    </div>
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
+    <script src="js/scripts.js"></script>
+
+    <button id="backToTop" onclick="scrollToTop()">↑ Voltar ao Topo</button>
+
+</body>
+
+</html>
