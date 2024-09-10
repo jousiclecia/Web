@@ -1,0 +1,130 @@
+@charset "utf-8";
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: rgb(166, 230, 255);
+}
+
+header {
+  background-color: rgb(0, 128, 255);
+}
+
+main {
+  background-color: white;
+  width: 900px;
+  padding: 10px;
+  margin: auto;
+  border-radius: 20px;
+}
+
+h1 {
+  background-color: rgb(0, 128, 255);
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  background-color: rgb(0, 128, 255);
+  color: white;
+  text-align: center;
+}
+
+h4 {
+  background-color: white;
+  color: rgb(0, 71, 129);
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+  font-size: larger;
+}
+
+video {
+  width: 750px;
+  margin: auto;
+}
+
+h6 {
+  text-align: center;
+}
+
+.sidebar {
+  float: right;
+  margin: 0;
+  width: 285px;
+  text-align: center;
+  font-size: 50%;
+  line-height: 50px;
+}
+
+.video-box {
+  border: 1px solid #ccd2d9;
+  background: rgb(237, 254, 255);
+  padding: 0.7em;
+  text-align: center;
+}
+
+.btn {
+  color: white;
+  border-radius: 10px;
+  padding: 10px 55px;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.activ{
+  background-color: rgb(1, 193, 252);
+  border-radius: 10px;
+  padding: 10px 55px;
+}
+
+.activ:hover{
+  background-color: rgb(116, 228, 228);
+}
+
+.btn:hover{
+  background-color: rgb(116, 228, 228);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.banner-text {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+iframe {
+  border-radius: 12px;
+}
+
+hr {
+  margin: 20px 0;
+}
+
+#backToTop {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #2874a7;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  z-index: 1000; 
+}
+
+#backToTop:hover {
+  background-color: #215188;
+}
